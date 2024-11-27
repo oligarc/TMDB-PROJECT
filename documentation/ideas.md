@@ -11,3 +11,6 @@ One filter input box with a dropdown to select the different filters
 ## Proposed Ideas
 A little game if it's not too much? Like a true/false
 Shrek mode (Oliver actu: This is going to be more likely the first thing to do)
+
+Save favorite movies
+Save Watchlist
