@@ -12,6 +12,7 @@ Then in the .gitignore you have to add the .env
 const BASE_URL = "https://api.themoviedb.org/3";
 const API_KEY = import.meta.env.VITE_API_KEY; //esto es lo que he metido para que me funcione, si no no consigo sacar las peliculas
 
+console.log("API Key:", import.meta.env.VITE_API_KEY);
 
 export const fetchRecentMovies = async () => {
   try {
@@ -24,4 +25,3 @@ export const fetchRecentMovies = async () => {
     console.error("Error al obtener las películas:", error);
   }
 };
-
