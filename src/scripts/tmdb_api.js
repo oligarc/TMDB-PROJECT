@@ -20,6 +20,19 @@ export const fetchRecentMovies = async () => {
     const data = await response.json();
     return data.results;
   } catch (error) {
-    console.error("Error al obtener las películas:", error);
+    console.error("Error getting the films:", error);
+  }
+};
+
+export const fetchFilmsByName = async (searchType) => {
+  try {
+    const response = await fetch(
+      `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${searchType}&language=es-ES`
+    );
+    const data = await response.json();
+    console.log(data);
+    return data.results;
+  } catch (error) {
+    console.error("Error getting the films; ", error);
   }
 };

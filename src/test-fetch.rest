@@ -2,3 +2,8 @@
 
 GET https://api.themoviedb.org/3/movie/now_playing?api_key=&language=es-ES
 Accept: application/json
+
+###
+
+GET https://api.themoviedb.org/3/search/movie?api_key=&query=shr&language=es-ES`
+Accept: application/json
