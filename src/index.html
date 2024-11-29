@@ -19,64 +19,12 @@
   </head>
 
   <body>
-    <header class="bg-secondary p-4">
-      <nav class="navbar navbar-expand-sm navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">Your likes</a>
-          <button
-            class="navbar-toggler d-lg-none"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="#" aria-current="page"
-                  >Watchlist <span class="visually-hidden">(current)</span></a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="dropdownId"
-                  data-bs-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Filter by</a
-                >
-                <div class="dropdown-menu" aria-labelledby="dropdownId">
-                  <a class="dropdown-item" href="#">Genre</a>
-                  <a class="dropdown-item" href="#">Year</a>
-                </div>
-              </li>
-            </ul>
-            <form class="d-flex my-2 my-lg-0">
-              <input
-                class="form-control me-sm-2"
-                type="text"
-                placeholder="Search"
-                id="searchFilmInput"
-              />
-              <button
-                class="btn btn-success my-2 my-sm-0"
-                type="button"
-                id="searchFilmButton"
-              >
-                Search
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
+    <header class="bg-primary p-3">
+      <div class="container">
+        <h1 class="text-white text-center">TMDB v1.0</h1>
+      </div>
     </header>
-    <main class="m-4">
+    <main class="m-2">
       <div class="container">
         <div class="movies-container"></div>
       </div>
