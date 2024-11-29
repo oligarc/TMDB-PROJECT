@@ -17,6 +17,7 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
+*.rest
 *.suo
 *.ntvs*
 *.njsproj
@@ -25,3 +26,4 @@ dist-ssr
 
 #Don't track env files
 .env
+
