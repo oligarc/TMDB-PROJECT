@@ -60,3 +60,15 @@ export const fetchFilmsByGenre = async (genreId) => {
     console.error("Error fetching films by genre: ", error);
   }
 };
+
+export const fetchMovieInfo = async (movieID) => {
+  try {
+    const response = await fetch(
+      `${BASE_URL}/movie/${movieID}?api_key=${API_KEY}&language=es-ES`
+    );
+    const data = await response.json();
+    return data; //Returns a single object
+  } catch (error) {
+    console.error("Error fetching info of movie: ", error);
+  }
+};
