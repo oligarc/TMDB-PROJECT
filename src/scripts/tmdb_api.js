@@ -36,3 +36,27 @@ export const fetchFilmsByName = async (searchType) => {
     console.error("Error getting the films; ", error);
   }
 };
+
+export const fetchGenres = async () => {
+  try {
+    const response = await fetch(
+      `${BASE_URL}/genre/movie/list?api_key=${API_KEY}&language=es-ES`
+    );
+    const data = await response.json();
+    return data.genres; // Its gonna return a list of genres with an id and a name
+  } catch (error) {
+    console.error("Error fetching genres: ", error);
+  }
+};
+
+export const fetchFilmsByGenre = async (genreId) => {
+  try {
+    const response = await fetch(
+      `${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=${genreId}&language=es-ES`
+    );
+    const data = await response.json();
+    return data.results;
+  } catch (error) {
+    console.error("Error fetching films by genre: ", error);
+  }
+};
