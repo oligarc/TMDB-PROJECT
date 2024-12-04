@@ -26,3 +26,4 @@ dist-ssr
 
 #Don't track env files
 .env
+

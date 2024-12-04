@@ -1,0 +1,84 @@
+.hover-shadow:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.12);
+  transition: all 0.4s ease;
+}
+
+.movie-details-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-details-container h2 {
+  color: #343a40;
+}
+
+.movie-details-container .genres {
+  margin-top: 20px;
+}
+
+.movie-details-container .btn {
+  margin-top: 10px;
+}
+
+.rating-circle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.rating-text {
+  font-size: 16px;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/*Shrek Mode */
+
+body {
+  transition: background-color 0.3s ease, cursor 0.3s ease;
+}
+
+body.shrek-mode {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.shrek-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: auto;
+  animation: shrek-enter 3s ease-out;
+  display: none;
+  z-index: 999;
+}
+
+@keyframes shrek-enter {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

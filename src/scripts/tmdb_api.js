@@ -12,16 +12,63 @@ Then in the .gitignore you have to add the .env
 const BASE_URL = "https://api.themoviedb.org/3";
 const API_KEY = import.meta.env.VITE_API_KEY; //esto es lo que he metido para que me funcione, si no no consigo sacar las peliculas
 
-console.log("API Key:", import.meta.env.VITE_API_KEY);
-
-export const fetchRecentMovies = async () => {
+export const fetchRecentMovies = async (page = 1) => {
   try {
     const response = await fetch(
-      `${BASE_URL}/movie/now_playing?api_key=${API_KEY}&language=es-ES`
+      `${BASE_URL}/movie/now_playing?api_key=${API_KEY}&language=es-ES&page=${page}`
     );
     const data = await response.json();
     return data.results;
   } catch (error) {
-    console.error("Error al obtener las películas:", error);
+    console.error("Error getting the films:", error);
+  }
+};
+
+export const fetchFilmsByName = async (searchType, page = 1) => {
+  try {
+    const response = await fetch(
+      `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${searchType}&language=es-ES&page=${page}`
+    );
+    const data = await response.json();
+    console.log(data);
+    return data.results;
+  } catch (error) {
+    console.error("Error getting the films; ", error);
+  }
+};
+
+export const fetchGenres = async () => {
+  try {
+    const response = await fetch(
+      `${BASE_URL}/genre/movie/list?api_key=${API_KEY}&language=es-ES`
+    );
+    const data = await response.json();
+    return data.genres; // Its gonna return a list of genres with an id and a name
+  } catch (error) {
+    console.error("Error fetching genres: ", error);
+  }
+};
+
+export const fetchFilmsByGenre = async (genreId, page = 1) => {
+  try {
+    const response = await fetch(
+      `${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=${genreId}&language=es-ES&page=${page}`
+    );
+    const data = await response.json();
+    return data.results;
+  } catch (error) {
+    console.error("Error fetching films by genre: ", error);
+  }
+};
+
+export const fetchMovieInfo = async (movieID) => {
+  try {
+    const response = await fetch(
+      `${BASE_URL}/movie/${movieID}?api_key=${API_KEY}&language=es-ES`
+    );
+    const data = await response.json();
+    return data; //Returns a single object
+  } catch (error) {
+    console.error("Error fetching info of movie: ", error);
   }
 };
