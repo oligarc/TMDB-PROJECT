@@ -81,13 +81,17 @@ const displayMovies = (movies) => {
   movies.forEach((movie) => {
     const movieCard = `
       <div class="col-md-4 col-lg-3 mb-4 d-flex align-items-stretch">
-        <div class="card h-100 rounded shadow hover-shadow d-flex flex-column movie-card" data-id="${movie.id}">
-          <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" class="card-img-top rounded" alt="${movie.title}">
+        <div class="card h-100 rounded shadow hover-shadow d-flex flex-column movie-card" data-id="${
+          movie.id
+        }">
+          <img src="https://image.tmdb.org/t/p/w500${
+            movie.poster_path
+          }" class="card-img-top rounded" alt="${movie.title}">
           <div class="card-body">
             <h5 class="card-title fw-bold">${movie.title}</h5>
             <p class="card-text">${movie.overview}</p>
             <div class="rating-circle">
-            <span class="rating-text">${movie.vote_average}</span>
+            <span class="rating-text">${movie.vote_average.toFixed(1)}</span>
             </div>
           </div>
         </div>
