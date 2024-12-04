@@ -12,10 +12,10 @@ Then in the .gitignore you have to add the .env
 const BASE_URL = "https://api.themoviedb.org/3";
 const API_KEY = import.meta.env.VITE_API_KEY; //esto es lo que he metido para que me funcione, si no no consigo sacar las peliculas
 
-export const fetchRecentMovies = async () => {
+export const fetchRecentMovies = async (page = 1) => {
   try {
     const response = await fetch(
-      `${BASE_URL}/movie/now_playing?api_key=${API_KEY}&language=es-ES`
+      `${BASE_URL}/movie/now_playing?api_key=${API_KEY}&language=es-ES&page=${page}`
     );
     const data = await response.json();
     return data.results;
@@ -24,10 +24,10 @@ export const fetchRecentMovies = async () => {
   }
 };
 
-export const fetchFilmsByName = async (searchType) => {
+export const fetchFilmsByName = async (searchType, page = 1) => {
   try {
     const response = await fetch(
-      `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${searchType}&language=es-ES`
+      `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${searchType}&language=es-ES&page=${page}`
     );
     const data = await response.json();
     console.log(data);
@@ -49,10 +49,10 @@ export const fetchGenres = async () => {
   }
 };
 
-export const fetchFilmsByGenre = async (genreId) => {
+export const fetchFilmsByGenre = async (genreId, page = 1) => {
   try {
     const response = await fetch(
-      `${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=${genreId}&language=es-ES`
+      `${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=${genreId}&language=es-ES&page=${page}`
     );
     const data = await response.json();
     return data.results;

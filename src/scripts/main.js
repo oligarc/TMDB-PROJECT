@@ -6,9 +6,11 @@ import {
   fetchMovieInfo,
 } from "./tmdb_api.js";
 
+let currentPage = 1;
+
 window.onload = () => {
   //window.onload makes sure these functions are gonna always work when you refresh
-  fetchRecentMovies().then((movies) => {
+  fetchRecentMovies(currentPage).then((movies) => {
     console.log("Most recent films" + movies);
     displayMovies(movies);
   });
@@ -18,6 +20,46 @@ window.onload = () => {
     populateGenresDropdown(genres);
   });
 };
+
+const comeBackHere = document.getElementById("comeBackHere");
+const scrollToComeBackHere = () => {
+  comeBackHere.scrollIntoView({ behavior: "smooth" });
+};
+
+const loadMoreMoviesPrevious = () => {
+  if (currentPage == 1) {
+    currentPage = currentPage;
+  } else {
+    currentPage--;
+  }
+  fetchRecentMovies(currentPage).then((movies) => {
+    displayMovies(movies);
+  });
+};
+
+const loadMoreMoviesNext = () => {
+  currentPage++;
+  fetchRecentMovies(currentPage).then((movies) => {
+    displayMovies(movies);
+  });
+};
+
+const loadButtonPreviousPage = document.getElementById(
+  "loadMoreFilmsButtonPreviousPage"
+);
+
+loadButtonPreviousPage.addEventListener("click", () => {
+  loadMoreMoviesPrevious();
+  scrollToComeBackHere();
+});
+
+const loadButtonNextPage = document.getElementById(
+  "loadMoreFilmsButtonNextPage"
+);
+loadButtonNextPage.addEventListener("click", () => {
+  loadMoreMoviesNext();
+  scrollToComeBackHere();
+});
 
 document.getElementById("shrekButton").addEventListener("click", () => {
   document.body.classList.toggle("shrek-mode"); //toggle removes or add the class depending if it is already or not
