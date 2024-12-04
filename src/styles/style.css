@@ -47,3 +47,38 @@
   font-size: 0.9rem;
   color: #555;
 }
+
+/*Shrek Mode */
+
+body {
+  transition: background-color 0.3s ease, cursor 0.3s ease;
+}
+
+body.shrek-mode {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.shrek-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: auto;
+  animation: shrek-enter 3s ease-out;
+  display: none;
+  z-index: 999;
+}
+
+@keyframes shrek-enter {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

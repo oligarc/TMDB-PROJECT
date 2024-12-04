@@ -19,6 +19,16 @@ window.onload = () => {
   });
 };
 
+document.getElementById("shrekButton").addEventListener("click", () => {
+  document.body.classList.toggle("shrek-mode"); //toggle removes or add the class depending if it is already or not
+  const shrekImage = document.getElementById("shrekImage");
+  if (document.body.classList.contains("shrek-mode")) {
+    shrekImage.style.display = "block"; //If it contains the shrek-mode class, img is gonna be shown
+  } else {
+    shrekImage.style.display = "none";
+  }
+});
+
 const displayMovies = (movies) => {
   const moviesContainer = document.querySelector(".movies-container");
   moviesContainer.innerHTML = "";
