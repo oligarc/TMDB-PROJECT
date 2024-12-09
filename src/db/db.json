@@ -1,0 +1,237 @@
+{
+  "favorites": [
+    {
+      "id": "845781",
+      "adult": false,
+      "backdrop_path": "/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+      "belongs_to_collection": null,
+      "budget": 250000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Acción"
+        },
+        {
+          "id": 35,
+          "name": "Comedia"
+        },
+        {
+          "id": 14,
+          "name": "Fantasía"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt14948432",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Red One",
+      "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
+      "popularity": 839.657,
+      "poster_path": "/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
+      "production_companies": [
+        {
+          "id": 73669,
+          "logo_path": "/9JmgzVUNvUN5KhZjmiVHEzPtFCc.png",
+          "name": "Seven Bucks Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 92693,
+          "logo_path": "/rMKRo8kFoJKxZr0MFEVRoZ8b54E.png",
+          "name": "The Detective Agency",
+          "origin_country": "US"
+        },
+        {
+          "id": 25998,
+          "logo_path": null,
+          "name": "Chris Morgan Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 21,
+          "logo_path": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+          "name": "Metro-Goldwyn-Mayer",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2024-10-31",
+      "revenue": 151881564,
+      "runtime": 124,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Red One",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 220
+    },
+    {
+      "id": 974453,
+      "adult": false,
+      "backdrop_path": "/nOoGIymGBNtA7AEN0B6nshSEQ1p.jpg",
+      "belongs_to_collection": null,
+      "budget": 30000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Acción"
+        },
+        {
+          "id": 80,
+          "name": "Crimen"
+        },
+        {
+          "id": 53,
+          "name": "Suspense"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt8337290",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Absolution",
+      "overview": "Un curtido y peligroso gangster (Liam Neeson) descubre que está empezando a perder la memoria. Decidido a enmendar las cosas con su hija y rectificar los errores del pasado, antes de que sea demasiado tarde intentará hacer lo que sea para redimirse. Pero las garras del mundo criminal no lo soltarán tan fácilmente y se verá obligado a enfrentarse a la organización para la que lleva más de 20 años trabajando.",
+      "popularity": 1891.485,
+      "poster_path": "/6QsBGrKAs6pgypqkqVVyHICJnpY.jpg",
+      "production_companies": [
+        {
+          "id": 175140,
+          "logo_path": "/grxF2M2ZByxjnzDyvHkfU5Tjr80.png",
+          "name": "Electromagnetic Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 80292,
+          "logo_path": "/2s4EgAlqccfIPvbQPeRfNEBe1e0.png",
+          "name": "Sculptor Media",
+          "origin_country": "US"
+        },
+        {
+          "id": 220749,
+          "logo_path": null,
+          "name": "north.five.six",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2024-10-31",
+      "revenue": 0,
+      "runtime": 112,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Absolution",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 116
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "845781",
+      "adult": false,
+      "backdrop_path": "/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+      "belongs_to_collection": null,
+      "budget": 250000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Acción"
+        },
+        {
+          "id": 35,
+          "name": "Comedia"
+        },
+        {
+          "id": 14,
+          "name": "Fantasía"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt14948432",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Red One",
+      "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
+      "popularity": 839.657,
+      "poster_path": "/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
+      "production_companies": [
+        {
+          "id": 73669,
+          "logo_path": "/9JmgzVUNvUN5KhZjmiVHEzPtFCc.png",
+          "name": "Seven Bucks Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 92693,
+          "logo_path": "/rMKRo8kFoJKxZr0MFEVRoZ8b54E.png",
+          "name": "The Detective Agency",
+          "origin_country": "US"
+        },
+        {
+          "id": 25998,
+          "logo_path": null,
+          "name": "Chris Morgan Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 21,
+          "logo_path": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+          "name": "Metro-Goldwyn-Mayer",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2024-10-31",
+      "revenue": 151881564,
+      "runtime": 124,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Red One",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 220
+    }
+  ]
+}
