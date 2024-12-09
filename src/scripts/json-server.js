@@ -26,6 +26,7 @@ const showMessage = (message, type = "danger") => {
   }
 };
 
+//////////////FAVORITES
 export const fetchFavorites = async () => {
   const response = await fetch(`${API_URL}/favorites`);
   return await response.json();
@@ -47,6 +48,26 @@ export const addToFavorites = async (movie) => {
   return await response.json();
 };
 
+export const removeFromFavorites = async (movieId) => {
+  try {
+    const response = await fetch(`${API_URL}/favorites/${movieId}`, {
+      method: "DELETE",
+    });
+
+    if (response.ok) {
+      console.log("Movie removed from favorites successfully.");
+      return true; // Successful deletion
+    } else {
+      console.error("Failed to remove movie from favorites.");
+      return false; // Deletion failed
+    }
+  } catch (error) {
+    console.error("Error while removing movie from favorites:", error);
+    return false;
+  }
+};
+
+/////////////WATCHLIST
 export const fetchWatchlist = async () => {
   const response = await fetch(`${API_URL}/watchlist`);
   return await response.json();
@@ -66,4 +87,23 @@ export const addToWatchlist = async (movie) => {
   });
   showMessage("Movie added to watchlist!", "success");
   return await response.json();
+};
+
+export const removeFromWatchlist = async (movieId) => {
+  try {
+    const response = await fetch(`${API_URL}/watchlist/${movieId}`, {
+      method: "DELETE",
+    });
+
+    if (response.ok) {
+      console.log("Movie removed from watchlist successfully.");
+      return true; // Successful deletion
+    } else {
+      console.error("Failed to remove movie from watchlist.");
+      return false; // Deletion failed
+    }
+  } catch (error) {
+    console.error("Error while removing movie from watchlist:", error);
+    return false;
+  }
 };

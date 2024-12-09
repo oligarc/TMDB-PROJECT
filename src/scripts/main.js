@@ -10,6 +10,8 @@ import {
   fetchWatchlist,
   addToFavorites,
   addToWatchlist,
+  removeFromFavorites,
+  removeFromWatchlist,
 } from "./json-server.js";
 
 let currentPage = 1;
@@ -113,6 +115,7 @@ const displayMovies = (movies) => {
             <div class="rating-circle">
             <span class="rating-text">${movie.vote_average.toFixed(1)}</span>
             </div>
+            
           </div>
         </div>
       </div>
