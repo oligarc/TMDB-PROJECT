@@ -67,6 +67,20 @@ loadButtonNextPage.addEventListener("click", () => {
   scrollToComeBackHere();
 });
 
+document.getElementById("favouritesLink").addEventListener("click", () => {
+  fetchFavorites().then((favorites) => {
+    console.log("Favorites:", favorites);
+    displayMovies(favorites, "favourites-container");
+  });
+});
+
+document.getElementById("watchlistLink").addEventListener("click", () => {
+  fetchWatchlist().then((watchlist) => {
+    console.log("Watchlist:", watchlist);
+    displayMovies(watchlist, "watchlist-container");
+  });
+});
+
 document.getElementById("shrekButton").addEventListener("click", () => {
   document.body.classList.toggle("shrek-mode"); //toggle removes or add the class depending if it is already or not
   const shrekImage = document.getElementById("shrekImage");
