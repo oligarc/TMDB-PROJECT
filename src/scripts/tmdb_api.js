@@ -15,7 +15,7 @@ const API_KEY = import.meta.env.VITE_API_KEY; //esto es lo que he metido para qu
 export const fetchRecentMovies = async (page = 1) => {
   try {
     const response = await fetch(
-      `${BASE_URL}/movie/now_playing?api_key=${API_KEY}&language=es-ES&page=${page}`
+      `${BASE_URL}/movie/now_playing?api_key=${API_KEY}&language=en-EN&page=${page}`
     );
     const data = await response.json();
     return data.results;
@@ -27,7 +27,7 @@ export const fetchRecentMovies = async (page = 1) => {
 export const fetchFilmsByName = async (searchType, page = 1) => {
   try {
     const response = await fetch(
-      `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${searchType}&language=es-ES&page=${page}`
+      `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${searchType}&language=en-EN&page=${page}`
     );
     const data = await response.json();
     console.log(data);
@@ -40,7 +40,7 @@ export const fetchFilmsByName = async (searchType, page = 1) => {
 export const fetchGenres = async () => {
   try {
     const response = await fetch(
-      `${BASE_URL}/genre/movie/list?api_key=${API_KEY}&language=es-ES`
+      `${BASE_URL}/genre/movie/list?api_key=${API_KEY}&language=en-ES`
     );
     const data = await response.json();
     return data.genres; // Its gonna return a list of genres with an id and a name
@@ -52,7 +52,7 @@ export const fetchGenres = async () => {
 export const fetchFilmsByGenre = async (genreId, page = 1) => {
   try {
     const response = await fetch(
-      `${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=${genreId}&language=es-ES&page=${page}`
+      `${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=${genreId}&language=en-EN&page=${page}`
     );
     const data = await response.json();
     return data.results;
@@ -64,7 +64,7 @@ export const fetchFilmsByGenre = async (genreId, page = 1) => {
 export const fetchMovieInfo = async (movieID) => {
   try {
     const response = await fetch(
-      `${BASE_URL}/movie/${movieID}?api_key=${API_KEY}&language=es-ES`
+      `${BASE_URL}/movie/${movieID}?api_key=${API_KEY}&language=en-EN`
     );
     const data = await response.json();
     return data; //Returns a single object

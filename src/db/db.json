@@ -80,6 +80,327 @@
       "vote_count": 220
     },
     {
+      "id": 1182387,
+      "adult": false,
+      "backdrop_path": "/evFChfYeD2LqobEJf8iQsrYcGTw.jpg",
+      "belongs_to_collection": null,
+      "budget": 11500000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt29252358",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Armor",
+      "overview": "Armored truck security guard James Brody is working with his son Casey transporting millions of dollars between banks when a team of thieves led by Rook orchestrate a takeover of their truck to seize the riches. Following a violent car chase, Rook soon has the armored truck surrounded and James and Casey find themselves cornered onto a decrepit bridge.",
+      "popularity": 1695.651,
+      "poster_path": "/pnXLFioDeftqjlCVlRmXvIdMsdP.jpg",
+      "production_companies": [
+        {
+          "id": 7417,
+          "logo_path": "/13GyIWMzFvDqJN6I6tZCQYzWr7L.png",
+          "name": "Convergence Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 20312,
+          "logo_path": "/iYmytRQt5jqlBIEaMQ0Cb6iAHh8.png",
+          "name": "TPC",
+          "origin_country": "US"
+        },
+        {
+          "id": 121204,
+          "logo_path": "/vbtvY4IxgUZk713rkmoTO4MHIac.png",
+          "name": "BondIt Media Capital",
+          "origin_country": "US"
+        },
+        {
+          "id": 3604,
+          "logo_path": "/jC6Hk3ZyNRlVPJsA0xGlAhgd2RP.png",
+          "name": "Grindstone Entertainment Group",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2024-10-30",
+      "revenue": 0,
+      "runtime": 89,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "On the bridge of death.",
+      "title": "Armor",
+      "video": false,
+      "vote_average": 5.6,
+      "vote_count": 52
+    },
+    {
+      "id": 592983,
+      "adult": false,
+      "backdrop_path": "/n4ycOGj2tRLfINTJQ3wl0vNYqpR.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "homepage": "https://www.netflix.com/title/81745658",
+      "imdb_id": "tt7215232",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Spellbound",
+      "overview": "When a powerful spell turns her parents into giant monsters, a teenage princess must journey into the wild to reverse the curse before it's too late.",
+      "popularity": 676.168,
+      "poster_path": "/xFSIygDiX70Esp9dheCgGX0Nj77.jpg",
+      "production_companies": [
+        {
+          "id": 82819,
+          "logo_path": "/gXfFl9pRPaoaq14jybEn1pHeldr.png",
+          "name": "Skydance Media",
+          "origin_country": "US"
+        },
+        {
+          "id": 115416,
+          "logo_path": "/eP0uhxcvAl91Xfw5SBSGuCY6GVU.png",
+          "name": "Skydance Animation",
+          "origin_country": "US"
+        },
+        {
+          "id": 179999,
+          "logo_path": "/eP0uhxcvAl91Xfw5SBSGuCY6GVU.png",
+          "name": "Skydance Animation",
+          "origin_country": "ES"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "ES",
+          "name": "Spain"
+        },
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2024-11-22",
+      "revenue": 0,
+      "runtime": 111,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Experience a twist on happily ever after.",
+      "title": "Spellbound",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 134
+    },
+    {
+      "id": 1035048,
+      "adult": false,
+      "backdrop_path": "/au3o84ub27qTZiMiEc9UYzN74V3.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt23558280",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Elevation",
+      "overview": "A single father and two women venture from the safety of their homes to face monstrous creatures to save the life of a young boy.",
+      "popularity": 3106.853,
+      "poster_path": "/uQhYBxOVFU6s9agD49FnGHwJqG5.jpg",
+      "production_companies": [
+        {
+          "id": 180839,
+          "logo_path": "/v2A9SsZdaWpmZdXPf3I7Ajxn1Pc.png",
+          "name": "Lyrical Media",
+          "origin_country": "US"
+        },
+        {
+          "id": 165538,
+          "logo_path": null,
+          "name": "Fuller Media",
+          "origin_country": "US"
+        },
+        {
+          "id": 146553,
+          "logo_path": null,
+          "name": "Inspire Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 242398,
+          "logo_path": null,
+          "name": "Grinder Monkey",
+          "origin_country": ""
+        },
+        {
+          "id": 242399,
+          "logo_path": null,
+          "name": "John Glenn Entertainment",
+          "origin_country": ""
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2024-11-07",
+      "revenue": 0,
+      "runtime": 91,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Don't go down without a fight.",
+      "title": "Elevation",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 123
+    },
+    {
+      "id": 402431,
+      "adult": false,
+      "backdrop_path": "/w22GVYotTIVC1dUd58mRhwPqiS.jpg",
+      "belongs_to_collection": {
+        "id": 968080,
+        "name": "Wicked Collection",
+        "poster_path": "/b9xo966oVIrFtpevhLQ9XILcXTh.jpg",
+        "backdrop_path": "/xFcLusbzDM86mla4vjdEBHi7jLW.jpg"
+      },
+      "budget": 150000000,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "homepage": "https://www.wickedmovie.com",
+      "imdb_id": "tt1262426",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Wicked",
+      "overview": "In the land of Oz, ostracized and misunderstood green-skinned Elphaba is forced to share a room with the popular aristocrat Glinda at Shiz University, and the two's unlikely friendship is tested as they begin to fulfill their respective destinies as Glinda the Good and the Wicked Witch of the West.",
+      "popularity": 1061.924,
+      "poster_path": "/xDGbZ0JJ3mYaGKy4Nzd9Kph6M9L.jpg",
+      "production_companies": [
+        {
+          "id": 33,
+          "logo_path": "/3wwjVpkZtnog6lSKzWDjvw2Yi00.png",
+          "name": "Universal Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 2527,
+          "logo_path": "/osO7TGmlRMistSQ5JZusPhbKUHk.png",
+          "name": "Marc Platt Productions",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2024-11-20",
+      "revenue": 455551000,
+      "runtime": 160,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Everyone deserves the chance to fly.",
+      "title": "Wicked",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 464
+    },
+    {
       "id": 974453,
       "adult": false,
       "backdrop_path": "/nOoGIymGBNtA7AEN0B6nshSEQ1p.jpg",
@@ -88,15 +409,15 @@
       "genres": [
         {
           "id": 28,
-          "name": "Acción"
+          "name": "Action"
         },
         {
           "id": 80,
-          "name": "Crimen"
+          "name": "Crime"
         },
         {
           "id": 53,
-          "name": "Suspense"
+          "name": "Thriller"
         }
       ],
       "homepage": "",
@@ -106,9 +427,9 @@
       ],
       "original_language": "en",
       "original_title": "Absolution",
-      "overview": "Un curtido y peligroso gangster (Liam Neeson) descubre que está empezando a perder la memoria. Decidido a enmendar las cosas con su hija y rectificar los errores del pasado, antes de que sea demasiado tarde intentará hacer lo que sea para redimirse. Pero las garras del mundo criminal no lo soltarán tan fácilmente y se verá obligado a enfrentarse a la organización para la que lleva más de 20 años trabajando.",
-      "popularity": 1891.485,
-      "poster_path": "/6QsBGrKAs6pgypqkqVVyHICJnpY.jpg",
+      "overview": "An aging ex-boxer gangster working as muscle for a Boston crime boss receives an upsetting diagnosis.  Despite a faltering memory, he attempts to rectify the sins of his past and reconnect with his estranged children. He is determined to leave a positive legacy for his grandson, but the criminal underworld isn’t done with him and won’t loosen their grip willingly.",
+      "popularity": 2261.486,
+      "poster_path": "/cNtAslrDhk1i3IOZ16vF7df6lMy.jpg",
       "production_companies": [
         {
           "id": 175140,
@@ -146,11 +467,149 @@
         }
       ],
       "status": "Released",
-      "tagline": "",
+      "tagline": "Everyone pays in the end.",
       "title": "Absolution",
       "video": false,
       "vote_average": 6.1,
-      "vote_count": 116
+      "vote_count": 119
+    },
+    {
+      "id": 1171640,
+      "adult": false,
+      "backdrop_path": "/liuBLPXvisMRo5w2JEKHXceWq5u.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "homepage": "https://www.netflix.com/title/81711199",
+      "imdb_id": "tt29260436",
+      "origin_country": [
+        "FR"
+      ],
+      "original_language": "fr",
+      "original_title": "GTMAX",
+      "overview": "When a notorious gang of bikers recruits her brother for a heist, a former motocross champion must face her deepest fears to keep her family safe.",
+      "popularity": 904.881,
+      "poster_path": "/bx92hl70NUhojjO3eV6LqKllj4L.jpg",
+      "production_companies": [
+        {
+          "id": 134188,
+          "logo_path": "/ueed3yKbzBRB4hBbpbPa3AxiwPk.png",
+          "name": "Inoxy Films",
+          "origin_country": "FR"
+        },
+        {
+          "id": 3040,
+          "logo_path": "/aZww3B7RCFAMV1qrDZDrdeB8qcI.png",
+          "name": "Versus Production",
+          "origin_country": "BE"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "BE",
+          "name": "Belgium"
+        },
+        {
+          "iso_3166_1": "FR",
+          "name": "France"
+        }
+      ],
+      "release_date": "2024-11-19",
+      "revenue": 0,
+      "runtime": 100,
+      "spoken_languages": [
+        {
+          "english_name": "French",
+          "iso_639_1": "fr",
+          "name": "Français"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "GTMAX",
+      "video": false,
+      "vote_average": 5.978,
+      "vote_count": 68
+    },
+    {
+      "id": 933260,
+      "adult": false,
+      "backdrop_path": "/7h6TqPB3ESmjuVbxCxAeB1c9OB1.jpg",
+      "belongs_to_collection": null,
+      "budget": 17500000,
+      "genres": [
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "homepage": "https://mubi.com/en/thesubstance",
+      "imdb_id": "tt17526714",
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_title": "The Substance",
+      "overview": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.",
+      "popularity": 942.849,
+      "poster_path": "/lqoMzCcZYEFK729d6qzt349fB4o.jpg",
+      "production_companies": [
+        {
+          "id": 10163,
+          "logo_path": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+          "name": "Working Title Films",
+          "origin_country": "GB"
+        },
+        {
+          "id": 233939,
+          "logo_path": null,
+          "name": "Blacksmith",
+          "origin_country": "FR"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "FR",
+          "name": "France"
+        },
+        {
+          "iso_3166_1": "GB",
+          "name": "United Kingdom"
+        }
+      ],
+      "release_date": "2024-09-07",
+      "revenue": 54130377,
+      "runtime": 141,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "If you follow the instructions, what could go wrong?",
+      "title": "The Substance",
+      "video": false,
+      "vote_average": 7.254,
+      "vote_count": 2461
     }
   ],
   "watchlist": [
@@ -232,6 +691,305 @@
       "video": false,
       "vote_average": 6.6,
       "vote_count": 220
+    },
+    {
+      "id": 1182387,
+      "adult": false,
+      "backdrop_path": "/evFChfYeD2LqobEJf8iQsrYcGTw.jpg",
+      "belongs_to_collection": null,
+      "budget": 11500000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt29252358",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Armor",
+      "overview": "Armored truck security guard James Brody is working with his son Casey transporting millions of dollars between banks when a team of thieves led by Rook orchestrate a takeover of their truck to seize the riches. Following a violent car chase, Rook soon has the armored truck surrounded and James and Casey find themselves cornered onto a decrepit bridge.",
+      "popularity": 1695.651,
+      "poster_path": "/pnXLFioDeftqjlCVlRmXvIdMsdP.jpg",
+      "production_companies": [
+        {
+          "id": 7417,
+          "logo_path": "/13GyIWMzFvDqJN6I6tZCQYzWr7L.png",
+          "name": "Convergence Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 20312,
+          "logo_path": "/iYmytRQt5jqlBIEaMQ0Cb6iAHh8.png",
+          "name": "TPC",
+          "origin_country": "US"
+        },
+        {
+          "id": 121204,
+          "logo_path": "/vbtvY4IxgUZk713rkmoTO4MHIac.png",
+          "name": "BondIt Media Capital",
+          "origin_country": "US"
+        },
+        {
+          "id": 3604,
+          "logo_path": "/jC6Hk3ZyNRlVPJsA0xGlAhgd2RP.png",
+          "name": "Grindstone Entertainment Group",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2024-10-30",
+      "revenue": 0,
+      "runtime": 89,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "On the bridge of death.",
+      "title": "Armor",
+      "video": false,
+      "vote_average": 5.6,
+      "vote_count": 52
+    },
+    {
+      "id": 558449,
+      "adult": false,
+      "backdrop_path": "/euYIwmwkmz95mnXvufEmbL6ovhZ.jpg",
+      "belongs_to_collection": {
+        "id": 1069584,
+        "name": "Gladiator Collection",
+        "poster_path": "/r7uyUOB6fmmPumWwHiV7Hn2kUbL.jpg",
+        "backdrop_path": "/1VdLvSIeHuwqCT13H9EafxCacGB.jpg"
+      },
+      "budget": 310000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 36,
+          "name": "History"
+        }
+      ],
+      "homepage": "https://www.gladiator.movie",
+      "imdb_id": "tt9218128",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Gladiator II",
+      "overview": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist. With rage in his heart and the future of the Empire at stake, Lucius must look to his past to find strength and honor to return the glory of Rome to its people.",
+      "popularity": 1398.666,
+      "poster_path": "/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+      "production_companies": [
+        {
+          "id": 4,
+          "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+          "name": "Paramount Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 221347,
+          "logo_path": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+          "name": "Scott Free Productions",
+          "origin_country": "US"
+        },
+        {
+          "id": 246486,
+          "logo_path": null,
+          "name": "Lucy Fisher/Douglas Wick Productions",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2024-11-05",
+      "revenue": 368092895,
+      "runtime": 148,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Prepare to be entertained.",
+      "title": "Gladiator II",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 996
+    },
+    {
+      "id": 1252309,
+      "adult": false,
+      "backdrop_path": null,
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt31723358",
+      "origin_country": [
+        "ES"
+      ],
+      "original_language": "es",
+      "original_title": "Pídeme lo que quieras",
+      "overview": "After his father's death, Eric Zimmerman travels to Spain to oversee his company's branches. In Madrid, he falls for Judith and engage in an intense, erotic relationship full of exploration. However, Eric fears his secret may end their affair.",
+      "popularity": 521.682,
+      "poster_path": "/76qnVxU2rPdVvipBN3DPQH6fVYB.jpg",
+      "production_companies": [
+        {
+          "id": 11564,
+          "logo_path": null,
+          "name": "Versus Entertainment",
+          "origin_country": "ES"
+        },
+        {
+          "id": 209187,
+          "logo_path": null,
+          "name": "LyO Media",
+          "origin_country": ""
+        },
+        {
+          "id": 11652,
+          "logo_path": null,
+          "name": "Warner Bros. Entertainment España",
+          "origin_country": "ES"
+        },
+        {
+          "id": 37209,
+          "logo_path": null,
+          "name": "4 Cats Pictures",
+          "origin_country": "ES"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "ES",
+          "name": "Spain"
+        }
+      ],
+      "release_date": "2024-11-29",
+      "revenue": 0,
+      "runtime": 0,
+      "spoken_languages": [
+        {
+          "english_name": "Spanish",
+          "iso_639_1": "es",
+          "name": "Español"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "Pídeme lo que quieras",
+      "video": false,
+      "vote_average": 8.4,
+      "vote_count": 4
+    },
+    {
+      "id": 791042,
+      "adult": false,
+      "backdrop_path": "/kwXycPsLA6SV3KUOagn343TtMOf.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "homepage": "",
+      "imdb_id": "tt10831486",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_title": "Levels",
+      "overview": "After witnessing his girlfriend's murder, a man risks everything - including reality itself - to discover the truth.",
+      "popularity": 859.471,
+      "poster_path": "/y1xm0jMIlx9Oo2a3jWNyLGm43sJ.jpg",
+      "production_companies": [
+        {
+          "id": 37749,
+          "logo_path": "/zXGpuQ8DKs9pVUthHuHVrQggcZK.png",
+          "name": "Farpoint Films",
+          "origin_country": "CA"
+        },
+        {
+          "id": 11877,
+          "logo_path": null,
+          "name": "Middle Child Films Inc.",
+          "origin_country": "CA"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "CA",
+          "name": "Canada"
+        }
+      ],
+      "release_date": "2024-11-01",
+      "revenue": 0,
+      "runtime": 92,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Question reality. Discover truth.",
+      "title": "Levels",
+      "video": false,
+      "vote_average": 5.689,
+      "vote_count": 37
     }
   ]
 }
