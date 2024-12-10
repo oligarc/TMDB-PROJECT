@@ -27,3 +27,5 @@ dist-ssr
 #Don't track env files
 .env
 
+#Personal folders
+/documentation
