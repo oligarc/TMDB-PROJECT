@@ -110,8 +110,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-- [Oliver LinkedIn](https://www.linkedin.com/in/oliver-garcia)
-- [Oliver GitHub](https://github.com/olivergarcia)
+- [Oliver LinkedIn](https://www.linkedin.com/in/%C3%B3liver-garc%C3%ADa-rodr%C3%ADguez/)
+- [Oliver GitHub](https://github.com/oligarc)
 
 - [Juan LinkedIn](https://www.linkedin.com/in/juan-villoslada-jimenez/)
 - [Juan GitHub](https://github.com/jvillos)
