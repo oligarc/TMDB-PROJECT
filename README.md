@@ -52,3 +52,35 @@ This is only a sneak peek of what you can do with the app, if you want to see mo
 
 ### Setup
 
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/oligarc/TMDB-PROJECT.git
+2. Navigate to the project directory
+   cd TMDB-PROJECT
+3. Install dependencies:
+   npm install
+4. Set up your TMDB API Key
+   - Sign up on [TMDB](https://www.themoviedb.org/)
+   - Go to your account settings and get your API key.
+   - Add your API key to the appropriate file (in our case we made an .env file to store there the key, so...)
+5. (Optional) Store the API Key in a .env file
+   Make a .env file at the root directory
+   Follow this structure --> VITE_API_KEY=your_key
+   Then, in the .gitignore include this line --> .env
+   There you go!
+6. (Optional) How to use the key if stored in .env
+   In the js, follow this again --> const API_KEY = import.meta.env.VITE_API_KEY
+   Then in the functions you won't have any problems
+7. Juan mete aquí lo del server ese raro
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+- [Oliver LinkedIn](https://www.linkedin.com/in/oliver-garcia)
+- [Oliver GitHub](https://github.com/olivergarcia)
+
+- Juan mete aquí tus cosas
