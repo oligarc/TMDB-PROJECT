@@ -15,7 +15,7 @@ This is the first thing you'll see when you run the app, the newest films.
 ![recentMovies.png](src/img/recentMovies.png)
 
 Once you are on them, it has a transition to make it more dynamic.
-![hover.png](src/img/hover.png)
+![hover2.png](src/img/hover2.png)
 
 If you click on them, you're being redirected to see more details of the film as you can see
 ![clickOn.png](src/img/clickOn.png)
