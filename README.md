@@ -65,7 +65,7 @@ This is only a sneak peek of what you can do with the app, if you want to see mo
    - Add your API key to the appropriate file (in our case we made an .env file to store there the key, so...)
 5. **(Optional)** Store the API Key in a .env file  
    
-   Make a .env file at the root directory  
+   Make sure you have the dotenv dependency installed!. Then, make a .env file at the root directory. 
 
    Follow this structure --> VITE_API_KEY=your_key  
 
@@ -77,7 +77,31 @@ This is only a sneak peek of what you can do with the app, if you want to see mo
    In the js, follow this again --> const API_KEY = import.meta.env.VITE_API_KEY  
    
    Then in the functions you won't have any problems
-8. Juan mete aquí lo del server ese raro
+8. The Favorites and Watchlist movie storing uses json-server. In order to be able to run the app we need to start both the json-server and Vite's own server at the same time. Some configuration is needed:
+
+   - First of all, **json-server** and **npm-run-all** dependencies need to be installed
+
+   - To redirect the main API request to the private API, a line of code must be added to the **vite.config.js** file inside defineConfig():
+
+      ```javascript
+      server: {
+         proxy: {
+            "/api": {
+            target: "http://localhost:3000",
+            changeOrigin: true,
+            rewrite: (path) => path.replace(/^\/api/, ""),
+            },
+         },
+      },
+
+   - To start both servers at the same time, two scripts will be added to the **package.json** file to make things faster. The first one will shorten the json-server start and the second one will start both servers in parallel using npm-run-all:
+
+      ```json
+      "json-server": "json-server --watch src/db/db.json --port 3000",
+      "serve": "npm-run-all --parallel dev json-server",
+
+9. That's all! Now use the **npm run serve** (instead of the traditional **npm run dev**) command and the app will be up and running!
+
 
 
 ## License
@@ -89,4 +113,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Oliver LinkedIn](https://www.linkedin.com/in/oliver-garcia)
 - [Oliver GitHub](https://github.com/olivergarcia)
 
-- Juan mete aquí tus cosas
+- [Juan LinkedIn](https://www.linkedin.com/in/juan-villoslada-jimenez/)
+- [Juan GitHub](https://github.com/jvillos)
