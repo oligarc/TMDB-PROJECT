@@ -71,6 +71,10 @@ body.shrek-mode {
   z-index: 999;
 }
 
+/* Explanation of the animation:
+At all % the transform translate is gonna put the animation a 50% to the top and to the left, making it centered
+Then, at 0% the scale is 0(invisible) at 50% 120% and at 100% back to its normal size*/
+
 @keyframes shrek-enter {
   0% {
     transform: translate(-50%, -50%) scale(0);
