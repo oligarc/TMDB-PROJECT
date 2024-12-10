@@ -7,6 +7,19 @@ Users also can explore a variety of movies, view details, and browse through spe
 
 Please note that in order to use this project you need to make a free account in TMDB to obtain a key and then make queries, this will be all explained below so don't worry.
 
+## Preview
+
+As you won't be capable of using this unless you first make your account, we think it's a good idea to show you how the app is built.
+
+This is the first thing you'll see when you run the app, the newest films.
+![recentMovies.png](src/img/recentMovies.png)
+
+Once you are on them, it has a transition to make it more dynamic.
+![hover.png](src/img/hover.png)
+
+If you click on them, you're being redirected to see more details of the film as you can see
+![clickOn.png](src/img/clickOn.png)
+
 ## Features
 
 - View the most recent movies.
