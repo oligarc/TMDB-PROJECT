@@ -103,6 +103,16 @@ This is only a sneak peek of what you can do with the app, if you want to see mo
 9. That's all! Now use the **npm run serve** (instead of the traditional **npm run dev**) command and the app will be up and running!
 
 
+## Work distribution
+- Oliver: 
+   - TMDB api access
+   - Overall design
+   - Filters
+
+- Juan: 
+   - API key configuration
+   - json-server configuration
+   - Watchlist and Favorites management
 
 ## License
 
