@@ -70,12 +70,14 @@ This is only a sneak peek of what you can do with the app, if you want to see mo
    Follow this structure --> VITE_API_KEY=your_key  
 
    Then, in the .gitignore include this line --> .env  
-   
+
    There you go!
-6. **(Optional)** How to use the key if stored in .env
-   In the js, follow this again --> const API_KEY = import.meta.env.VITE_API_KEY
+6. **(Optional)** How to use the key if stored in .env  
+7. 
+   In the js, follow this again --> const API_KEY = import.meta.env.VITE_API_KEY  
+   
    Then in the functions you won't have any problems
-7. Juan mete aquí lo del server ese raro
+8. Juan mete aquí lo del server ese raro
 
 
 ## License
