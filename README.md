@@ -63,12 +63,16 @@ This is only a sneak peek of what you can do with the app, if you want to see mo
    - Sign up on [TMDB](https://www.themoviedb.org/)
    - Go to your account settings and get your API key.
    - Add your API key to the appropriate file (in our case we made an .env file to store there the key, so...)
-5. (Optional) Store the API Key in a .env file
-   Make a .env file at the root directory
-   Follow this structure --> VITE_API_KEY=your_key
-   Then, in the .gitignore include this line --> .env
+5. **(Optional)** Store the API Key in a .env file  
+   
+   Make a .env file at the root directory  
+
+   Follow this structure --> VITE_API_KEY=your_key  
+
+   Then, in the .gitignore include this line --> .env  
+   
    There you go!
-6. (Optional) How to use the key if stored in .env
+6. **(Optional)** How to use the key if stored in .env
    In the js, follow this again --> const API_KEY = import.meta.env.VITE_API_KEY
    Then in the functions you won't have any problems
 7. Juan mete aquí lo del server ese raro
