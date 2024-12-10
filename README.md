@@ -20,6 +20,16 @@ Once you are on them, it has a transition to make it more dynamic.
 If you click on them, you're being redirected to see more details of the film as you can see
 ![clickOn.png](src/img/clickOn.png)
 
+Also, as you can see, you can add it to your favourites or to your watchlist
+
+![addedToFavourites.png](src/img/addedToFavourites.png)
+
+If it is already added in your watchlist or in your favourites...
+
+![alreadyFavourite.png](src/img/alreadyFavourite.png)
+
+This is only a sneak peek of what you can do with the app, if you want to see more you'll have to try it for yourself!
+
 ## Features
 
 - View the most recent movies.
