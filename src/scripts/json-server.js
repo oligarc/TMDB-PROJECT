@@ -48,6 +48,7 @@ export const addToFavorites = async (movie) => {
   return await response.json();
 };
 
+<<<<<<< HEAD
 /*
 export const removeFromFavorites = async (movieId) => {
   try {
@@ -67,6 +68,8 @@ export const removeFromFavorites = async (movieId) => {
     return false;
   }
 };
+=======
+>>>>>>> b82e04e9ce3a166da2e6e45fa100fa7e57f9fdaa
 
 */
 
@@ -92,6 +95,7 @@ export const addToWatchlist = async (movie) => {
   return await response.json();
 };
 
+<<<<<<< HEAD
 /*
 export const removeFromWatchlist = async (movieId) => {
   try {
@@ -113,3 +117,5 @@ export const removeFromWatchlist = async (movieId) => {
 };
 
 */
+=======
+>>>>>>> b82e04e9ce3a166da2e6e45fa100fa7e57f9fdaa
