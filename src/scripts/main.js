@@ -10,8 +10,6 @@ import {
   fetchWatchlist,
   addToFavorites,
   addToWatchlist,
-  removeFromFavorites,
-  removeFromWatchlist,
 } from "./json-server.js";
 
 let currentPage = 1;
