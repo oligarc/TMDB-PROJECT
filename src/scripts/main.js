@@ -70,14 +70,14 @@ loadButtonNextPage.addEventListener("click", () => {
 document.getElementById("favouritesLink").addEventListener("click", () => {
   fetchFavorites().then((favorites) => {
     console.log("Favorites:", favorites);
-    displayMovies(favorites, "favourites-container");
+    displayMovies(favorites);
   });
 });
 
 document.getElementById("watchlistLink").addEventListener("click", () => {
   fetchWatchlist().then((watchlist) => {
     console.log("Watchlist:", watchlist);
-    displayMovies(watchlist, "watchlist-container");
+    displayMovies(watchlist);
   });
 });
 
