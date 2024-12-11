@@ -48,6 +48,7 @@ export const addToFavorites = async (movie) => {
   return await response.json();
 };
 
+/*
 export const removeFromFavorites = async (movieId) => {
   try {
     const response = await fetch(`${API_URL}/favorites/${movieId}`, {
@@ -66,6 +67,8 @@ export const removeFromFavorites = async (movieId) => {
     return false;
   }
 };
+
+*/
 
 /////////////WATCHLIST
 export const fetchWatchlist = async () => {
@@ -89,6 +92,7 @@ export const addToWatchlist = async (movie) => {
   return await response.json();
 };
 
+/*
 export const removeFromWatchlist = async (movieId) => {
   try {
     const response = await fetch(`${API_URL}/watchlist/${movieId}`, {
@@ -107,3 +111,5 @@ export const removeFromWatchlist = async (movieId) => {
     return false;
   }
 };
+
+*/
